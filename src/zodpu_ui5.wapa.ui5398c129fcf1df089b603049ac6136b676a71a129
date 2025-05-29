@@ -1,0 +1,2 @@
+{"version":3,"file":"Constants-dbg.js","names":["Constants","SERVICE_QUERY_LIMIT"],"sources":["Constants.ts"],"sourcesContent":["export default class Constants {\n\tpublic static readonly SERVICE_QUERY_LIMIT = 2000;\n}\n"],"mappings":";;;EAAe,MAAMA,SAAS,+
+CAAC;IAC9B,OAAuBC,mBAAmB,GAAG,IAAI;EAClD;EAAC,OAAAD,SAAA;AAAA","ignoreList":[]}                                                                                                                                                                                

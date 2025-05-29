@@ -1,0 +1,2 @@
+sap.ui.define([],function(){"use strict";var r={formatJSON(r){if(!r){return""}try{const t=typeof r==="string"?JSON.parse(r):r;return JSON.stringify(t,null,4)}catch{return typeof r==="string"?r:JSON.stringify(r)}}};return r});                              
+//# sourceMappingURL=formatter.js.map                                                                                                                                                                                                                          

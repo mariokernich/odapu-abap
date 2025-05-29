@@ -1,0 +1,2 @@
+sap.ui.define([],function(){"use strict";class s{static SERVICE_QUERY_LIMIT=2e3}return s});                                                                                                                                                                    
+//# sourceMappingURL=Constants.js.map                                                                                                                                                                                                                          

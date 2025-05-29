@@ -1,0 +1,29 @@
+managed with unmanaged save implementation in class zbp_c_odpu_oproj unique;
+
+define behavior for ZC_ODPU_OPROJ
+lock master
+authorization master ( instance )
+{
+  create;
+  update;
+  delete;
+
+  mapping for zdb_odpu_oproj {
+      ProjectName = project_name;
+      ActionName = action_name;
+      EntityMethod = entity_method;
+      EntityName = entity_name;
+      Odatatype = odatatype;
+      FunctionName = function_name;
+      RequestType = request_type;
+      ServiceName = service_name;
+      ServicePath = service_path;
+      ServiceVersion = service_version;
+      Uname = uname;
+      Top = top;
+      Skip = skip;
+      Headers = headers;
+      Filters = filters;
+      Sorters = sorters;
+  }
+}
