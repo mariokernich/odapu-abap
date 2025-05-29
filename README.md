@@ -60,6 +60,8 @@ To set up and use this project, you need to use abapgit. Follow these steps:
 
 For more details, visit the [abapgit documentation](https://docs.abapgit.org/).
 
+Afterwards assign role **ZODPU** to your SAP user and start Fiori Launchpad to use it. 
+
 The source code of the UI5 application can be found here: https://github.com/mariokernich/odapu-ui5
 
 ## License
