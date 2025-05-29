@@ -1,4 +1,4 @@
-<img src="logo.png" alt="Logo" width="250"/>
+<img src="./images/odapu-logo.png" alt="Logo" width="250"/>
 
 # ODAPU - OData & APC Test Tool
 
@@ -24,31 +24,31 @@ No more manual hassle – just click, test, repeat. ⚡
 
 Main screen of ODATA service testing.
 
-![Main Screen](./screenshots/main.png)
+![Main Screen](./images/main.png)
 
 Switch from JSON data preview to table view mode. 
 
-![Table view](./screenshots/table-view.png)
+![Table view](./images/table-view.png)
 
 Just search and your service from a list. 
 
-![Service Search](./screenshots/service-search.png)
+![Service Search](./images/service-search.png)
 
 Save and load your projects. 
 
-![Project Load](./screenshots/project-load.png)
+![Project Load](./images/project-load.png)
 
 Create parallel projects and test multiple resources at the same time. 
 
-![New Project](./screenshots/new-project.png)
+![New Project](./images/new-project.png)
 
 Pick any ABAP Push Channel which is available on the system.
 
-![APC Search](./screenshots/apc-search.png)
+![APC Search](./images/apc-search.png)
 
 Push channel main view. Connect or disconnect the selected ABAP Push Channel. Write and Receive Messages.
 
-![APC](./screenshots/apc.png)
+![APC](./images/apc.png)
 
 ## 📌 How to use
 
