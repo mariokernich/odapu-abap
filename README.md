@@ -1,4 +1,4 @@
-![Logo](./logo.png)
+<img src="logo.png" alt="Logo" width="250"/>
 
 # ODAPU - OData & APC Test Tool
 
