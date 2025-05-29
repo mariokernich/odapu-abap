@@ -1,6 +1,6 @@
 <img src="./images/odapu-logo.png" alt="Logo" width="250"/>
 
-# ODAPU - OData & APC Test Tool
+# OData & APC Test Tool
 
 This app gives you a powerful tool to test ODATA services – whether it’s modern ABAP RAP/CDS or classic SEGW projects – as well as APC (ABAP Push Channels).
 With its intuitive UI, you can easily build test cases, run them instantly, and save them for quick access later.
