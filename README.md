@@ -6,8 +6,10 @@ No more manual hassle – just click, test, repeat. ⚡
 
 ## 🚀 Highlights
 
-- **One Tool for everything:** ODATA and ABAP Push channel in one place.
+- **One Tool for everything:** ODATA and ABAP Push channel in one place. Whether using old or newer, modern technolgoies. 
 - **Parallel Testing:** Run multiple requests or channels simultaneously – perfect for complex debugging and real-time monitoring.
+- **ODATA Request builder:** Easily switch between entity (and CRUD operation), function and action to pick the right ressource you want to test. Based on the selection, you will see the right inputs to fill. 
+- **Extended ODATA entity functions:** Detailed and user friendly options to define filter, sorter, header and general request options with no need of manual URL build. 
 - **Project Management:** Save, load, and organize your test cases.
 - **Service & Channel Search:** Quickly find OData services and Push Channels.
 - **Flexible Data View:** Switch between different views to display data.
