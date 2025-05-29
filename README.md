@@ -11,14 +11,28 @@ What makes this tool stand out:
 - At least one system with S/4HANA components
 - Works both on-premise and in the SAP BTP (Cloud) environment
 
-## Screenshot
+## Feature Showcase
+
+Main screen of ODATA service testing.
 
 ![Main Screen](./screenshots/main.png)
 
+Switch from JSON data preview to table view mode. 
+
+![Table view](./screenshots/table-view.png)
+
+Just search and your service from a list. 
+
 ![Service Search](./screenshots/service-search.png)
+
+Save and load your projects. 
 
 ![Project Load](./screenshots/project-load.png)
 
+Create parallel projects and test multiple resources at the same time. 
+
 ![New Project](./screenshots/new-project.png)
+
+Push channel main view. 
 
 ![APC](./screenshots/apc.png)
