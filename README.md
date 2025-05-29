@@ -55,3 +55,7 @@ To set up and use this project, you need to use abapgit. Follow these steps:
 3. Follow the abapgit instructions to pull and activate the project.
 
 For more details, visit the [abapgit documentation](https://docs.abapgit.org/).
+
+## License
+
+This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSE) file.
