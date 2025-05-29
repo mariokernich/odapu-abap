@@ -60,6 +60,8 @@ To set up and use this project, you need to use abapgit. Follow these steps:
 
 For more details, visit the [abapgit documentation](https://docs.abapgit.org/).
 
+The source code of the UI5 application can be found here: https://github.com/mariokernich/odapu-ui5
+
 ## License
 
 This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSE) file.
