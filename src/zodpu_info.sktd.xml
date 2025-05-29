@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SKTD" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SKTD>
+    <METADATA>
+     <DESCRIPTION>Documentation for ZODPU</DESCRIPTION>
+     <LANGUAGE>EN</LANGUAGE>
+     <ABAP_LANGU_VERSION>0</ABAP_LANGU_VERSION>
+    </METADATA>
+    <REF_OBJECT>
+     <TYPE>DEVC/K</TYPE>
+     <NAME>ZODPU</NAME>
+    </REF_OBJECT>
+    <ELEMENTS>
+     <item>
+      <ID>ZODPU</ID>
+      <REF>
+       <URI>/sap/bc/adt/packages/zodpu</URI>
+       <TYPE>DEVC/K</TYPE>
+       <NAME>ZODPU</NAME>
+       <DESCRIPTION>ODATA &amp; APC Test Tool</DESCRIPTION>
+      </REF>
+      <TEXT>IyMgT0RBVEEgJiBBUEMgVGVzdCBUb29sCgpNb3JlIGluZm9ybWF0aW9uIGFuZCBsYXRlc3QgdXBk
+YXRlczogaHR0cHM6Ly9naXRodWIuY29tL21hcmlva2VybmljaC9vZGFwdS1hYmFw</TEXT>
+      <CAN_HAVE_DOCUMENTATION>X</CAN_HAVE_DOCUMENTATION>
+      <LINKS>
+       <item>
+        <HREF>/sap/bc/adt/repository/informationsystem/elementinfo?path=zodpu&amp;type=devc/k</HREF>
+        <REL>http://www.sap.com/adt/relations/elementinfo</REL>
+        <TYPE>application/vnd.sap.adt.elementinfo+xml</TYPE>
+        <TITLE>Show Element Information</TITLE>
+       </item>
+      </LINKS>
+      <SHORTTEXT_OBLIGATION>forbidden</SHORTTEXT_OBLIGATION>
+      <LONGTEXT_OBLIGATION>optional</LONGTEXT_OBLIGATION>
+     </item>
+    </ELEMENTS>
+   </SKTD>
+  </asx:values>
+ </asx:abap>
+</abapGit>

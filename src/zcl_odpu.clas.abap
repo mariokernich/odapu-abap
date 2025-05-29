@@ -177,34 +177,18 @@ CLASS zcl_odpu IMPLEMENTATION.
             et_bep_group_info = DATA(lt_bep_group_info)
       ).
 
-
       LOOP AT lt_bep_group_info INTO DATA(ls_bep_group_info).
 
         LOOP AT ls_bep_group_info-t_service_info INTO DATA(ls_service_info).
 
-            if ls_service_info-service_alias IS NOT INITIAL.
-                continue.
-            ENDIF.
-
-        "READ TABLE ls_bep_group_info-t_service_info INTO DATA(ls_service_info) INDEX 1 .
-
-          "IF line_exists( lt_v4[ srvb_name = ls_service_info-service_id ] ).
-
-          "DATA(ls_line) = lt_v4[ srvb_name = ls_service_info-service_id ].
+          IF ls_service_info-service_alias IS NOT INITIAL.
+            CONTINUE.
+          ENDIF.
 
           APPEND INITIAL LINE TO rt_services ASSIGNING FIELD-SYMBOL(<fs_insert>).
 
           <fs_insert>-odatatype = '4'.
-         "<fs_insert>-servicename = ls_service_info-service_id.
-         <fs_insert>-groupid = ls_bep_group_info-group_id.
-
-          "CONCATENATE ls_bep_group_info-group_id '#' ls_service_info-service_id INTO <fs_insert>-servicename.
-
-          "<fs_insert>-servicename = ls_bep_group_info-group_id.
-
-           IF ls_service_info-service_id = 'ZODPU_O2'.
-            WRITE: 'TEST'.
-          ENDIF.
+          <fs_insert>-groupid = ls_bep_group_info-group_id.
 
           <fs_insert>-servicepath = zcl_odpu=>get_v4_url(
               iv_group_id       = ls_bep_group_info-group_id
@@ -212,10 +196,6 @@ CLASS zcl_odpu IMPLEMENTATION.
             ).
           <fs_insert>-version = ls_service_info-service_version.
           <fs_insert>-description = ls_service_info-description.
-
-
-
-          "ENDIF.
 
         ENDLOOP.
 
