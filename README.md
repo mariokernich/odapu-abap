@@ -29,7 +29,7 @@ Find and pick your service in seconds to get started — just search the list.
 ![Service Search](./images/pick-service.gif)
 
 Create requests with just a few clicks — straight from the available resources of the current ODATA service.
-![Service Builder](./images/crud-n-functions.gif.gif)
+![Service Builder](./images/crud-n-functions.gif)
 
 Switch from JSON data preview to table view mode. 
 ![Table view](./images/table-switch.gif)
