@@ -40,19 +40,19 @@ Just search and pick your service from a list.
 
 Save and load your projects. 
 
-![Project Load](./images/project-load.png)
+![Project Load](./images/project-load.gif)
 
 Create parallel projects and test multiple resources at the same time. 
 
 ![New Project](./images/new-project.png)
 
-Pick any ABAP Push Channel which is available on the system.
+Pick any ABAP Push Channel which is available on the system.  Connect or disconnect the selected ABAP Push Channel. Write and Receive Messages.
 
-![APC Search](./images/apc-search.png)
+![APC](./images/apc.gif)
 
-Push channel main view. Connect or disconnect the selected ABAP Push Channel. Write and Receive Messages.
+Create and manage multiple ODATA and APC projects simultaneously — switch between them effortlessly.
 
-![APC](./images/apc.png)
+![Tab switch](./images/tab-switch.gif)
 
 ## 📌 How to use
 
