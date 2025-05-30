@@ -30,6 +30,10 @@ Switch from JSON data preview to table view mode.
 
 ![Table view](./images/table-view.png)
 
+Easily add and modify filter and sorter definitions by choosing properties from the selected entity. 
+
+![Filter](./images/filter.png)
+
 Just search and pick your service from a list. 
 
 ![Service Search](./images/service-search.png)
