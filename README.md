@@ -30,7 +30,7 @@ Switch from JSON data preview to table view mode.
 
 ![Table view](./images/table-switch.gif)
 
-Easily add and modify filter and sorter definitions by choosing properties from the selected entity. 
+Quickly add or edit filter and sorter definitions by selecting properties from the chosen entity.
 
 ![Filter](./images/filter.gif)
 
@@ -42,7 +42,7 @@ Save and load your projects.
 
 ![Project Load](./images/project-load.gif)
 
-Create parallel projects and test multiple resources at the same time. 
+Work with ODATA and APC tools all in one place.
 
 ![New Project](./images/new-project.png)
 
