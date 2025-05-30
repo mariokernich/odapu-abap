@@ -34,7 +34,7 @@ Quickly add or edit filter and sorter definitions by selecting properties from t
 
 ![Filter](./images/filter.gif)
 
-Just search and pick your service from a list. 
+Find and pick your service in seconds — just search the list. 
 
 ![Service Search](./images/pick-service.gif)
 
