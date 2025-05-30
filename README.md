@@ -23,35 +23,30 @@ No more manual hassle – just click, test, repeat. ⚡
 ## Feature Showcase
 
 Main screen of ODATA service testing.
-
 ![Main Screen](./images/main.png)
 
-Switch from JSON data preview to table view mode. 
+Find and pick your service in seconds to get started — just search the list. 
+![Service Search](./images/pick-service.gif)
 
+Create requests with just a few clicks — straight from the available resources of the current ODATA service.
+![Service Builder](./images/crud-n-functions.gif.gif)
+
+Switch from JSON data preview to table view mode. 
 ![Table view](./images/table-switch.gif)
 
 Quickly add or edit filter and sorter definitions by selecting properties from the chosen entity.
-
 ![Filter](./images/filter.gif)
 
-Find and pick your service in seconds — just search the list. 
-
-![Service Search](./images/pick-service.gif)
-
 Save and load your projects. 
-
 ![Project Load](./images/project-load.gif)
 
 Work with ODATA and APC tools all in one place.
-
 ![New Project](./images/new-project.png)
 
 Pick any ABAP Push Channel which is available on the system.  Connect or disconnect the selected ABAP Push Channel. Write and Receive Messages.
-
 ![APC](./images/apc.gif)
 
 Create and manage multiple ODATA and APC projects simultaneously — switch between them effortlessly.
-
 ![Tab switch](./images/tab-switch.gif)
 
 ## 📌 How to use
