@@ -30,7 +30,7 @@ Switch from JSON data preview to table view mode.
 
 ![Table view](./images/table-view.png)
 
-Just search and your service from a list. 
+Just search and pick your service from a list. 
 
 ![Service Search](./images/service-search.png)
 
