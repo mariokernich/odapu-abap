@@ -1,10 +1,7 @@
-@AbapCatalog.sqlViewName: 'ZVODPUOPROJ'
-@AbapCatalog.compiler.compareFilter: true
-@AbapCatalog.preserveKey: true
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @EndUserText.label: 'ODATA & APC Test Tool: User ODATA projects'
 @Metadata.ignorePropagatedAnnotations: true
-define root view ZC_ODPU_OPROJ 
+define root view entity ZC_ODPU_OPROJ 
     as select from zdb_odpu_oproj
 {
     key project_name as ProjectName,

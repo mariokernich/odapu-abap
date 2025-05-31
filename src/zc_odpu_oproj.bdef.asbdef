@@ -1,4 +1,8 @@
-managed with unmanaged save implementation in class zbp_c_odpu_oproj unique;
+managed
+with unmanaged save
+implementation in class zbp_c_odpu_oproj
+unique;
+strict;
 
 define behavior for ZC_ODPU_OPROJ
 lock master
