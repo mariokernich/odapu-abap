@@ -51,7 +51,7 @@ Create and manage multiple ODATA and APC projects simultaneously — switch betw
 
 ## 📌 How to use
 
-To set up and use this project, you need to use abapgit. Follow these steps:
+To set up and use this project, you need to use [abapgit](https://abapgit.org/). Follow these steps:
 
 1. Install abapgit in your ABAP system.
 2. Clone this repository using abapgit.
@@ -59,9 +59,16 @@ To set up and use this project, you need to use abapgit. Follow these steps:
 
 For more details, visit the [abapgit documentation](https://docs.abapgit.org/).
 
-Afterwards assign role **ZODPU** to your SAP user and start Fiori Launchpad to use it. 
-
 The source code of the UI5 application can be found here: https://github.com/mariokernich/odapu-ui5
+
+## OnPremise specific setup steps
+
+1. Open transaction `/UI2/SEMOBJ` and create a new semantic object: `ZODPU`.
+2. Open transaction `PFCG` and create a new role: `ZODPU`.  
+   - Add the Launchpad Catalog `ZODPU` and Launchpad Group `ZODPU`.  
+   - Assign the role to your user.
+3. Open transaction `SICF` and ensure the service node `zodpu_ui5` is activated.
+4. Launch the Fiori Launchpad via `/UI2/FLP` and start the `ODAPU` app.
 
 ## License
 
