@@ -61,9 +61,9 @@ For more details, visit the [abapgit documentation](https://docs.abapgit.org/).
 
 ## Cloud / SAP BTP specific setup steps
 
-Deploy the UI5 application form here: https://github.com/mariokernich/odapu-ui5
-
-Afterwards open it from HTML5 applications section or add it to an SAP Work Zone launchpad. 
+1. Deploy the UI5 application form here: https://github.com/mariokernich/odapu-ui5
+2. Ensure service binding `ZODPU_O2` is published
+3. Open the UI5 application from HTML5 applications section or add it to an SAP Work Zone launchpad. 
 
 ## OnPremise specific setup steps
 
