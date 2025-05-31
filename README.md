@@ -59,7 +59,11 @@ To set up and use this project, you need to use [abapgit](https://abapgit.org/).
 
 For more details, visit the [abapgit documentation](https://docs.abapgit.org/).
 
-The source code of the UI5 application can be found here: https://github.com/mariokernich/odapu-ui5
+## Cloud / SAP BTP specific setup steps
+
+Deploy the UI5 application form here: https://github.com/mariokernich/odapu-ui5
+
+Afterwards open it from HTML5 applications section or add it to an SAP Work Zone launchpad. 
 
 ## OnPremise specific setup steps
 
