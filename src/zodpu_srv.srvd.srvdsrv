@@ -1,4 +1,4 @@
-@EndUserText.label: 'ODATA & APC Test Tool'
+@EndUserText.label: 'ODATA & APC Test Tool: Main Service'
 define service ZODPU_SRV {
   expose ZCE_ODPU_ODATA_SERVICES as serviceSet;
   expose ZCE_ODPU_APC as apcSet;

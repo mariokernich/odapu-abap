@@ -7,9 +7,9 @@
     <APPLCLAS>/UI5/CL_UI5_BSP_APPLICATION</APPLCLAS>
     <APPLEXT>ZODPU_UI5</APPLEXT>
     <SECURITY>X</SECURITY>
-    <ORIGLANG>D</ORIGLANG>
+    <ORIGLANG>E</ORIGLANG>
     <MODIFLANG>E</MODIFLANG>
-    <TEXT>UI5_odpu</TEXT>
+    <TEXT>UI5 resources</TEXT>
    </ATTRIBUTES>
    <PAGES>
     <item>
@@ -20,7 +20,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -31,7 +31,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -42,7 +42,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -53,7 +53,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -64,7 +64,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -75,7 +75,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -86,29 +86,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
-     </ATTRIBUTES>
-    </item>
-    <item>
-     <ATTRIBUTES>
-      <APPLNAME>ZODPU_UI5</APPLNAME>
-      <PAGEKEY>CONTROL/APCCARD.JS</PAGEKEY>
-      <PAGENAME>control/ApcCard.js</PAGENAME>
-      <PAGETYPE>X</PAGETYPE>
-      <LAYOUTLANGU>D</LAYOUTLANGU>
-      <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
-     </ATTRIBUTES>
-    </item>
-    <item>
-     <ATTRIBUTES>
-      <APPLNAME>ZODPU_UI5</APPLNAME>
-      <PAGEKEY>CONTROL/APCCARD.JS.MAP</PAGEKEY>
-      <PAGENAME>control/ApcCard.js.map</PAGENAME>
-      <PAGETYPE>X</PAGETYPE>
-      <LAYOUTLANGU>D</LAYOUTLANGU>
-      <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -119,7 +97,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -130,7 +108,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -141,7 +119,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -152,7 +130,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -163,7 +141,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -174,7 +152,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -185,7 +163,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -196,7 +174,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -207,7 +185,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -218,7 +196,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -229,7 +207,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -240,7 +218,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -251,7 +229,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -263,7 +241,7 @@
       <IS_START_PAGE>X</IS_START_PAGE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -274,7 +252,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -283,9 +261,9 @@
       <PAGEKEY>MANIFEST.JSON</PAGEKEY>
       <PAGENAME>manifest.json</PAGENAME>
       <PAGETYPE>X</PAGETYPE>
-      <LAYOUTLANGU>D</LAYOUTLANGU>
+      <LAYOUTLANGU>E</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -296,7 +274,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -307,7 +285,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -318,7 +296,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -329,7 +307,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -340,7 +318,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -351,7 +329,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -362,7 +340,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -373,7 +351,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -384,7 +362,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -395,7 +373,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -406,7 +384,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -417,7 +395,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -428,7 +406,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -439,7 +417,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -450,7 +428,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -461,7 +439,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -472,7 +450,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -483,7 +461,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -492,9 +470,9 @@
       <PAGEKEY>UI5370231248340A28114CDF921268ABB06870502DA</PAGEKEY>
       <PAGENAME>UI5370231248340A28114CDF921268ABB06870502DA</PAGENAME>
       <PAGETYPE>X</PAGETYPE>
-      <LAYOUTLANGU>D</LAYOUTLANGU>
+      <LAYOUTLANGU>E</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -505,7 +483,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -516,7 +494,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -527,7 +505,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -538,7 +516,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -549,7 +527,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -558,9 +536,9 @@
       <PAGEKEY>UI557CF5CD537FC7FD6ABD94DE90D5321044743BE20</PAGEKEY>
       <PAGENAME>UI557CF5CD537FC7FD6ABD94DE90D5321044743BE20</PAGENAME>
       <PAGETYPE>X</PAGETYPE>
-      <LAYOUTLANGU>D</LAYOUTLANGU>
+      <LAYOUTLANGU>E</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -571,7 +549,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -582,7 +560,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -591,9 +569,9 @@
       <PAGEKEY>UI567B5F919670FB68699EFEFD7FF0F9BE6A7442B31</PAGEKEY>
       <PAGENAME>UI567B5F919670FB68699EFEFD7FF0F9BE6A7442B31</PAGENAME>
       <PAGETYPE>X</PAGETYPE>
-      <LAYOUTLANGU>D</LAYOUTLANGU>
+      <LAYOUTLANGU>E</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -604,7 +582,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -615,7 +593,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -626,7 +604,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -637,18 +615,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
-     </ATTRIBUTES>
-    </item>
-    <item>
-     <ATTRIBUTES>
-      <APPLNAME>ZODPU_UI5</APPLNAME>
-      <PAGEKEY>UI58E082E7C8420E3B4209FB79224604A81C2EC021F</PAGEKEY>
-      <PAGENAME>UI58E082E7C8420E3B4209FB79224604A81C2EC021F</PAGENAME>
-      <PAGETYPE>X</PAGETYPE>
-      <LAYOUTLANGU>D</LAYOUTLANGU>
-      <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -659,7 +626,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -670,7 +637,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -681,7 +648,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -692,7 +659,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -703,7 +670,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -714,7 +681,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -725,7 +692,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -736,7 +703,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -747,7 +714,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -756,9 +723,9 @@
       <PAGEKEY>UI5B2B5D24238268DEF4FA05063EBE5142BBCACE17B</PAGEKEY>
       <PAGENAME>UI5B2B5D24238268DEF4FA05063EBE5142BBCACE17B</PAGENAME>
       <PAGETYPE>X</PAGETYPE>
-      <LAYOUTLANGU>D</LAYOUTLANGU>
+      <LAYOUTLANGU>E</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -769,7 +736,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -780,7 +747,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -791,7 +758,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -802,7 +769,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -813,7 +780,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -824,7 +791,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -835,7 +802,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -846,7 +813,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -857,18 +824,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
-     </ATTRIBUTES>
-    </item>
-    <item>
-     <ATTRIBUTES>
-      <APPLNAME>ZODPU_UI5</APPLNAME>
-      <PAGEKEY>UI5E0E065B0D7C5A6D690EEED9DDB4E38ED1A359706</PAGEKEY>
-      <PAGENAME>UI5E0E065B0D7C5A6D690EEED9DDB4E38ED1A359706</PAGENAME>
-      <PAGETYPE>X</PAGETYPE>
-      <LAYOUTLANGU>D</LAYOUTLANGU>
-      <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -879,7 +835,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -890,7 +846,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -901,7 +857,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -912,7 +868,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -923,7 +879,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -934,7 +890,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -943,9 +899,9 @@
       <PAGEKEY>UTIL/DIALOGMANAGER.JS</PAGEKEY>
       <PAGENAME>util/DialogManager.js</PAGENAME>
       <PAGETYPE>X</PAGETYPE>
-      <LAYOUTLANGU>D</LAYOUTLANGU>
+      <LAYOUTLANGU>E</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -954,9 +910,9 @@
       <PAGEKEY>UTIL/DIALOGMANAGER.JS.MAP</PAGEKEY>
       <PAGENAME>util/DialogManager.js.map</PAGENAME>
       <PAGETYPE>X</PAGETYPE>
-      <LAYOUTLANGU>D</LAYOUTLANGU>
+      <LAYOUTLANGU>E</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -967,7 +923,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -978,7 +934,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -989,7 +945,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -1000,7 +956,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -1011,7 +967,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -1022,7 +978,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -1033,7 +989,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -1044,7 +1000,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -1055,7 +1011,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -1066,7 +1022,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -1077,7 +1033,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -1088,7 +1044,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -1099,7 +1055,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -1110,7 +1066,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -1121,7 +1077,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -1132,7 +1088,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -1143,7 +1099,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -1154,7 +1110,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -1165,7 +1121,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -1176,7 +1132,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -1187,7 +1143,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -1198,7 +1154,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -1209,7 +1165,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -1220,7 +1176,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -1231,7 +1187,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -1242,7 +1198,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -1253,7 +1209,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -1264,7 +1220,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -1275,7 +1231,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -1286,7 +1242,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -1297,7 +1253,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
     <item>
@@ -1308,7 +1264,7 @@
       <PAGETYPE>X</PAGETYPE>
       <LAYOUTLANGU>D</LAYOUTLANGU>
       <VERSION>A</VERSION>
-      <LANGU>D</LANGU>
+      <LANGU>E</LANGU>
      </ATTRIBUTES>
     </item>
    </PAGES>

@@ -7,4 +7,5 @@ define custom entity ZCE_ODPU_APC
       class_name          : seoclsname;
       protocol_type_id    : apc_wsp_protocol_type_id;
       amc_message_type_id : amc_message_type_id;
+      description : ddtext;
 }

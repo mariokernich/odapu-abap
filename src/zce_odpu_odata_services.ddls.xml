@@ -5,6 +5,7 @@
    <DDLS>
     <DDLNAME>ZCE_ODPU_ODATA_SERVICES</DDLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
+    <DDTEXT>ODATA &amp; APC Test Tool: Service entity</DDTEXT>
     <SOURCE_TYPE>Q</SOURCE_TYPE>
    </DDLS>
   </asx:values>

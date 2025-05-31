@@ -34,6 +34,8 @@ CLASS zcl_odpu DEFINITION
     CLASS-METHODS get_root_url
       RETURNING
         VALUE(rv_root_url) TYPE string.
+    CLASS-METHODS get_app_url RETURNING
+                                VALUE(rv_root_url) TYPE string.
   PROTECTED SECTION.
   PRIVATE SECTION.
 ENDCLASS.
@@ -290,6 +292,51 @@ CLASS zcl_odpu IMPLEMENTATION.
     ENDIF.
 
     rv_metadata_url = lv_url.
+
+  ENDMETHOD.
+
+  METHOD get_app_url.
+
+    DATA: str_host TYPE string.
+    DATA: str_port TYPE string.
+    DATA: str_prot TYPE string.
+
+    CALL FUNCTION 'TH_GET_VIRT_HOST_DATA'
+      EXPORTING
+        protocol       = 1
+        virt_idx       = 0
+      IMPORTING
+        hostname       = str_host
+        port           = str_port
+      EXCEPTIONS
+        not_found      = 1
+        internal_error = 2
+        OTHERS         = 3.
+
+    str_prot = 'HTTP'.
+
+    IF sy-subrc <> 0.
+      IF sy-subrc  NE 0.
+        CALL FUNCTION 'TH_GET_VIRT_HOST_DATA'
+          EXPORTING
+            protocol       = 2
+            virt_idx       = 0
+          IMPORTING
+            hostname       = str_host
+            port           = str_port
+          EXCEPTIONS
+            not_found      = 1
+            internal_error = 2
+            OTHERS         = 3.
+        IF sy-subrc EQ 0.
+          str_prot = 'HTTPS'.
+        ELSE.
+          MESSAGE e082(shttp).
+        ENDIF.
+      ELSE.
+        MESSAGE e082(shttp).
+      ENDIF.
+    ENDIF.
 
   ENDMETHOD.
 
