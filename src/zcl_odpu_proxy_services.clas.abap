@@ -1,4 +1,4 @@
-CLASS zcl_odpu_proxy_odata_services DEFINITION
+CLASS zcl_odpu_proxy_services DEFINITION
   INHERITING FROM zcl_odpu_proxy
   PUBLIC
   FINAL
@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_odpu_proxy_odata_services IMPLEMENTATION.
+CLASS zcl_odpu_proxy_services IMPLEMENTATION.
   METHOD select.
 
      DATA(lt_services) = zcl_odpu=>get_all_services( ).

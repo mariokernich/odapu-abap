@@ -3,9 +3,9 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <DDLS>
-    <DDLNAME>ZCE_ODPU_ODATA_SERVICES</DDLNAME>
+    <DDLNAME>ZCE_ODPU_INFO</DDLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
-    <DDTEXT>ODATA &amp; APC Test Tool: Service entity</DDTEXT>
+    <DDTEXT>ODATA &amp; APC Tool: General Information</DDTEXT>
     <SOURCE_TYPE>Q</SOURCE_TYPE>
    </DDLS>
   </asx:values>

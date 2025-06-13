@@ -36,6 +36,20 @@ CLASS zcl_odpu DEFINITION
         VALUE(rv_root_url) TYPE string.
     CLASS-METHODS get_app_url RETURNING
                                 VALUE(rv_root_url) TYPE string.
+
+    CLASS-METHODS get_latest_release
+      EXPORTING
+        ev_name TYPE string
+        ev_tag_name TYPE string
+        ev_body TYPE string.
+
+    CLASS-METHODS compare_versions
+      IMPORTING
+        iv_version_new   TYPE string
+        iv_version_cur   TYPE string
+      RETURNING
+        VALUE(rv_result) TYPE abap_bool.
+
   PROTECTED SECTION.
   PRIVATE SECTION.
 ENDCLASS.
@@ -337,6 +351,101 @@ CLASS zcl_odpu IMPLEMENTATION.
         MESSAGE e082(shttp).
       ENDIF.
     ENDIF.
+
+  ENDMETHOD.
+
+  METHOD get_latest_release.
+
+    TRY.
+
+        TYPES: BEGIN OF ty_json_response,
+                 tag_name TYPE string,
+                 name     TYPE string,
+                 created_at TYPE string,
+                 published_at TYPE string,
+                 body TYPE string,
+                 id TYPE i,
+                 url TYPE string,
+                 node_id TYPE string,
+                 target_commitish TYPE string,
+                 html_url TYPE string,
+               END OF ty_json_response.
+
+        DATA: lv_response    TYPE string,
+              ls_json        TYPE ty_json_response,
+              lo_http_client TYPE REF TO if_http_client.
+
+        DATA(lv_url) = |https://api.github.com/repos/{ zif_odpu=>c_github_repo }/releases/latest|.
+
+        cl_http_client=>create_by_url(
+          EXPORTING
+            url    = lv_url
+          IMPORTING
+            client = lo_http_client
+        ).
+
+        lo_http_client->send( ).
+        lo_http_client->receive( ).
+
+        lo_http_client->response->get_status(
+            IMPORTING
+                code = DATA(lv_code) ).
+
+        IF lv_code NE 200.
+          RETURN.
+        ENDIF.
+
+        lv_response = lo_http_client->response->get_cdata( ).
+
+        CALL METHOD /ui2/cl_json=>deserialize
+          EXPORTING
+            json = lv_response
+          CHANGING
+            data = ls_json.
+
+        ev_name = ls_json-name.
+        ev_tag_name = ls_json-tag_name.
+        ev_body = ls_json-body.
+
+      CATCH cx_root.
+
+    ENDTRY.
+
+  ENDMETHOD.
+
+  METHOD compare_versions.
+
+    DATA: lt_new      TYPE STANDARD TABLE OF string,
+          lt_cur      TYPE STANDARD TABLE OF string,
+          lv_parts    TYPE i,
+          lv_new_part TYPE i,
+          lv_cur_part TYPE i.
+
+    SPLIT iv_version_new AT '.' INTO TABLE lt_new.
+    SPLIT iv_version_cur AT '.' INTO TABLE lt_cur.
+
+    lv_parts = lines( lt_new ).
+    IF lines( lt_cur ) > lv_parts.
+      lv_parts = lines( lt_cur ).
+    ENDIF.
+
+    DO lv_parts TIMES.
+      READ TABLE lt_new INDEX sy-index INTO DATA(lv_new_str).
+      READ TABLE lt_cur INDEX sy-index INTO DATA(lv_cur_str).
+
+      lv_new_part = CONV i( lv_new_str ).
+      lv_cur_part = CONV i( lv_cur_str ).
+
+      IF lv_new_part > lv_cur_part.
+        rv_result = abap_true.
+        RETURN.
+      ELSEIF lv_new_part < lv_cur_part.
+        rv_result = abap_false.
+        RETURN.
+      ENDIF.
+    ENDDO.
+
+    rv_result = abap_false.
 
   ENDMETHOD.
 
