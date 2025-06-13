@@ -59,11 +59,22 @@ To set up and use this project, you need to use [abapgit](https://abapgit.org/).
 
 For more details, visit the [abapgit documentation](https://docs.abapgit.org/).
 
-## Cloud / SAP BTP specific setup steps
+### Import with abapgit failed with service binding / definition
 
-1. Deploy the UI5 application form here: https://github.com/mariokernich/odapu-ui5
-2. Ensure service binding `ZODPU_O2` is published
-3. Open the UI5 application from HTML5 applications section or add it to an SAP Work Zone launchpad. 
+If the abapgit import failed for `ZODPU_SRV` service definition or `ZODPU_O2` service binding, then you need to manually create them.
+
+Create new service definition `ZODPU_SRV` with the following contents:
+```ABAP
+@EndUserText.label: 'ODATA & APC Test Tool: Main Service'
+define service ZODPU_SRV {
+  expose ZCE_ODPU_ODATA_SERVICES as ODataService;
+  expose ZCE_ODPU_APC as PushChannel;
+  expose ZC_ODPU_OPROJ as ODataServiceProject;
+}
+```
+
+Create new service binding `ZODPU_O2`
+![Service Binding ZODPU_02](./images/service-binding.png)
 
 ## OnPremise specific setup steps
 
@@ -73,6 +84,14 @@ For more details, visit the [abapgit documentation](https://docs.abapgit.org/).
    - Assign the role to your user.
 3. Open transaction `SICF` and ensure the service node `zodpu_ui5` is activated.
 4. Launch the Fiori Launchpad via `/UI2/FLP` and start the `ODAPU` app.
+
+## Cloud / SAP BTP specific setup steps
+
+**Note:** This environment is actually not tested yet!
+
+1. Deploy the UI5 application form here: https://github.com/mariokernich/odapu-ui5
+2. Ensure service binding `ZODPU_O2` is published
+3. Open the UI5 application from HTML5 applications section or add it to an SAP Work Zone launchpad. 
 
 ## License
 
