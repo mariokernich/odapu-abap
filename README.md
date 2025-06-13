@@ -67,7 +67,8 @@ Create new service definition `ZODPU_SRV` with the following contents:
 ```ABAP
 @EndUserText.label: 'ODATA & APC Test Tool: Main Service'
 define service ZODPU_SRV {
-  expose ZCE_ODPU_ODATA_SERVICES as ODataService;
+  expose ZCE_ODPU_INFO as Info;
+  expose ZCE_ODPU_SERVICES as ODataService;
   expose ZCE_ODPU_APC as PushChannel;
   expose ZC_ODPU_OPROJ as ODataServiceProject;
 }
