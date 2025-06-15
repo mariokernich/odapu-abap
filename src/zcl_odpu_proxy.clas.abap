@@ -16,7 +16,9 @@ CLASS zcl_odpu_proxy DEFINITION
     DATA mo_filter       TYPE REF TO if_rap_query_filter.
     CONSTANTS c_default_limit TYPE i VALUE 100 ##NO_TEXT.
 
-    METHODS select ABSTRACT.
+    METHODS select ABSTRACT
+              RAISING
+                cx_rap_query_filter_no_range.
   PRIVATE SECTION.
 ENDCLASS.
 
