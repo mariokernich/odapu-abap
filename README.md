@@ -15,6 +15,8 @@ No more manual hassle – just click, test, repeat. ⚡
 - **Project Management:** Save, load, and organize your test cases.
 - **Service & Channel Search:** Quickly find OData services and Push Channels.
 - **Flexible Data View:** Switch between different views to display data.
+- **Multilanguage Support:** English, German, Turkish, and French translations included
+- **Update notification:** Automatically notifies you when a new version is available
 
 ## 🔧 System Requirements
 - At least one system with S/4HANA components
