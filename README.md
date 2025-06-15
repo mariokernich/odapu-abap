@@ -73,6 +73,8 @@ define service ZODPU_SRV {
   expose ZCE_ODPU_SERVICES as ODataService;
   expose ZCE_ODPU_APC as PushChannel;
   expose ZC_ODPU_OPROJ as ODataServiceProject;
+  expose ZCE_ODPU_TABLE as Dictionary;
+  expose ZCE_ODPU_TABLE_FIELDS as DictionaryField;
 }
 ```
 
