@@ -3,12 +3,33 @@ CLASS lhc_ZC_ODPU_OPROJ DEFINITION INHERITING FROM cl_abap_behavior_handler.
 
     METHODS get_instance_authorizations FOR INSTANCE AUTHORIZATION
       IMPORTING keys REQUEST requested_authorizations FOR zc_odpu_oproj RESULT result.
+    METHODS mark_favorite FOR MODIFY
+      IMPORTING keys FOR ACTION zc_odpu_oproj~mark_favorite.
 
 ENDCLASS.
 
 CLASS lhc_ZC_ODPU_OPROJ IMPLEMENTATION.
 
   METHOD get_instance_authorizations.
+  ENDMETHOD.
+
+  METHOD mark_favorite.
+
+    LOOP AT keys INTO DATA(ls_key).
+      DATA(lv_user) = sy-uname.
+      DATA ls_delete TYPE zdb_opdu_ofavs.
+      ls_delete-uname = lv_user.
+      ls_delete-path = ls_key-%param-ServicePath.
+      DELETE zdb_opdu_ofavs FROM ls_delete.
+
+      IF ls_key-%param-Value EQ abap_true.
+        DATA ls_insert TYPE zdb_opdu_ofavs.
+        ls_insert-uname = lv_user.
+        ls_insert-path = ls_key-%param-ServicePath.
+        INSERT zdb_opdu_ofavs FROM ls_insert.
+      ENDIF.
+    ENDLOOP.
+
   ENDMETHOD.
 
 ENDCLASS.

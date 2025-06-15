@@ -1,0 +1,3 @@
+sap.ui.define(["../../util/DialogController"],function(e){"use strict";function t(e){return e&&e.__esModule&&typeof e.default!=="undefined"?e.default:e}const o=t(e);const n=o.extend("de.kernich.odpu.controller.dialog.AddSortDialogController",{constructor+
+:function e(){o.prototype.constructor.apply(this,arguments);this.data={properties:[],directions:[{key:"asc",text:"Ascending"},{key:"desc",text:"Descending"}],selectedProperty:"",selectedDirection:"asc"}}});return n});                                      
+//# sourceMappingURL=AddSortDialogController.js.map                                                                                                                                                                                                            

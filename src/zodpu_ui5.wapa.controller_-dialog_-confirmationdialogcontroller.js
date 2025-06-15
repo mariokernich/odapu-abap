@@ -1,0 +1,3 @@
+sap.ui.define(["../../util/DialogController"],function(n){"use strict";function o(n){return n&&n.__esModule&&typeof n.default!=="undefined"?n.default:n}const t=o(n);const e=t.extend("de.kernich.odpu.controller.dialog.ConfirmationDialogController",{constr+
+uctor:function n(){t.prototype.constructor.apply(this,arguments);this.data={message:"",confirmed:false}},onConfirm:function n(){this.data.confirmed=true;this.onConfirm()},onCancel:function n(){this.data.confirmed=false;this.onCancel()}});return e});      
+//# sourceMappingURL=ConfirmationDialogController.js.map                                                                                                                                                                                                       

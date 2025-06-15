@@ -1,0 +1,3 @@
+sap.ui.define(["../../util/DialogController"],function(o){"use strict";function t(o){return o&&o.__esModule&&typeof o.default!=="undefined"?o.default:o}const e=t(o);const n=e.extend("de.kernich.odpu.controller.dialog.AboutDialogController",{constructor:f+
+unction o(){e.prototype.constructor.apply(this,arguments);this.data={Version:"",RemoteVersion:"",UpdateAvailable:false,Logo:""}}});return n});                                                                                                                 
+//# sourceMappingURL=AboutDialogController.js.map                                                                                                                                                                                                              

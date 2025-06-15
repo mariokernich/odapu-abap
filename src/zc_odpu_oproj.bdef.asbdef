@@ -12,6 +12,8 @@ authorization master ( instance )
   update;
   delete;
 
+  action mark_favorite parameter ZCE_ODPU_FAV;
+
   mapping for zdb_odpu_oproj {
       ProjectName = project_name;
       ActionName = action_name;

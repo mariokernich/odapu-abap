@@ -8,4 +8,5 @@ define root custom entity ZCE_ODPU_SERVICES
       Favorite    : abap_boolean;
       Description : ddtext;
       GroupId     : /iwfnd/v4_med_group_id;
+      IsFavorite  : abap_boolean;
 }

@@ -1,0 +1,3 @@
+sap.ui.define(["../../util/DialogController"],function(t){"use strict";function e(t){return t&&t.__esModule&&typeof t.default!=="undefined"?t.default:t}const o=e(t);const n=o.extend("de.kernich.odpu.controller.dialog.PickCustomServiceDialogController",{c+
+onstructor:function t(){o.prototype.constructor.apply(this,arguments);this.data={selectedType:"2",servicePath:""}}});return n});                                                                                                                               
+//# sourceMappingURL=PickCustomServiceDialogController.js.map                                                                                                                                                                                                  

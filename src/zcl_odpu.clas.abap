@@ -39,9 +39,9 @@ CLASS zcl_odpu DEFINITION
 
     CLASS-METHODS get_latest_release
       EXPORTING
-        ev_name TYPE string
+        ev_name     TYPE string
         ev_tag_name TYPE string
-        ev_body TYPE string.
+        ev_body     TYPE string.
 
     CLASS-METHODS compare_versions
       IMPORTING
@@ -213,6 +213,11 @@ CLASS zcl_odpu IMPLEMENTATION.
           <fs_insert>-version = ls_service_info-service_version.
           <fs_insert>-description = ls_service_info-description.
 
+          SPLIT <fs_insert>-servicepath AT '/' INTO TABLE DATA(lt_parts).
+          IF lines( lt_parts ) GT 2.
+            READ TABLE lt_parts INTO  <fs_insert>-servicename INDEX lines( lt_parts ) - 1.
+          ENDIF.
+
         ENDLOOP.
 
       ENDLOOP.
@@ -359,16 +364,16 @@ CLASS zcl_odpu IMPLEMENTATION.
     TRY.
 
         TYPES: BEGIN OF ty_json_response,
-                 tag_name TYPE string,
-                 name     TYPE string,
-                 created_at TYPE string,
-                 published_at TYPE string,
-                 body TYPE string,
-                 id TYPE i,
-                 url TYPE string,
-                 node_id TYPE string,
+                 tag_name         TYPE string,
+                 name             TYPE string,
+                 created_at       TYPE string,
+                 published_at     TYPE string,
+                 body             TYPE string,
+                 id               TYPE i,
+                 url              TYPE string,
+                 node_id          TYPE string,
                  target_commitish TYPE string,
-                 html_url TYPE string,
+                 html_url         TYPE string,
                END OF ty_json_response.
 
         DATA: lv_response    TYPE string,
