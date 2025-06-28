@@ -8,17 +8,17 @@ No more manual hassle – just click, test, repeat. ⚡
 
 ## 🚀 Highlights
 
-- **One Tool for everything:** ODATA and ABAP Push channel in one place. Whether using old or newer, modern technolgoies. 
-- **Parallel Testing:** Run multiple requests or channels simultaneously – perfect for complex debugging and real-time monitoring. Each project will be placed in it's own tab, which can be switched anytime. 
+- **One Tool for everything:** ODATA and ABAP Push channel in one place. Whether using old or newer, modern technolgoies.
+- **Parallel Testing:** Run multiple requests or channels simultaneously – perfect for complex debugging and real-time monitoring. Each project will be placed in it's own tab, which can be switched anytime.
 - **ODATA Request builder:** Easily switch between entity (and CRUD operation), function and action to pick the right ressource you want to test. Based on the selection, you will see the right inputs to fill.
-- **ODATA Requests history:** Recently used resources are saved for quick access to your latest requests
+- **Extended ODATA entity functions:** Detailed and user friendly options to define filter, sorter, header, expand and general request options with no need of manual URL build.
 - **ODATA Metadata visualization:** View metadata.xml contents and full visualization of OData project including entities, functions, actions and complex types
-- **Extended ODATA entity functions:** Detailed and user friendly options to define filter, sorter, header, expand and general request options with no need of manual URL build. 
+- **ODATA Requests history:** Recently used resources are saved for quick access to your latest requests
 - **Project Management:** Save, load, and organize your test cases.
 - **Service & Channel Search:** Quickly find OData services and Push Channels.
 - **Flexible Data View:** Switch between different views to display data.
-- **Multilanguage Support:** English (en), German (de) - Deutsch, French (fr) - Français, Turkish (tr) - Türkçe, Spanish (es) - Español, Italian (it) - Italiano, Russian (ru) - Русский
 - **Success and Error sound feedback:** Audio notifications for successful operations and error states
+- **Multilanguage Support:** English (en), German (de) - Deutsch, French (fr) - Français, Turkish (tr) - Türkçe, Spanish (es) - Español, Italian (it) - Italiano, Russian (ru) - Русский
 - **Update notification:** Automatically notifies you when a new version is available
 
 ## 🔧 System Requirements
