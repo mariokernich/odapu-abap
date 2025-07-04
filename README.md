@@ -36,6 +36,9 @@ Find and pick your service in seconds to get started — just search the list.
 Create requests with just a few clicks — straight from the available resources of the current ODATA service.
 ![Service Builder](./images/crud-n-functions.gif)
 
+Display service metadata as XML source or with visualization of all entities, functions, actions and complex types. 
+![Metadata](./images/metadata.gif)
+
 Switch from JSON data preview to table view mode. 
 ![Table view](./images/table-switch.gif)
 
