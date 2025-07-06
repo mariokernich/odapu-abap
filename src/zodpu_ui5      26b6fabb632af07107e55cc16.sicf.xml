@@ -7,6 +7,11 @@
     <ICF_NAME>ZODPU_UI5</ICF_NAME>
     <ORIG_NAME>zodpu_ui5</ORIG_NAME>
    </ICFSERVICE>
+   <ICFDOCU>
+    <ICF_NAME>ZODPU_UI5</ICF_NAME>
+    <ICF_LANGU>E</ICF_LANGU>
+    <ICF_DOCU>UI5 resources</ICF_DOCU>
+   </ICFDOCU>
   </asx:values>
  </asx:abap>
 </abapGit>

@@ -1,3 +1,0 @@
-{"version":3,"file":"MainViewModel-dbg.js","names":[],"sources":["MainViewModel.ts"],"sourcesContent":["export interface MainViewModel {\n\tselectedService: {\n\t\tservice: {\n\t\t\tServiceName: string;\n\t\t\tODataType: \"2\" | \"4\";\n\t\t\tServicePath+
-: string;\n\t\t\tVersion: string;\n\t\t};\n\t};\n\tselectedEntityName: string;\n\tselectedFunctionName: string;\n\tselectedActionName: string;\n\tselectedMethod: string;\n\tresourceType: string;\n\ttop?: number;\n\tskip?: number;\n} "],"mappings":"","ign+
-oreList":[]}                                                                                                                                                                                                                                                   

@@ -1,0 +1,3 @@
+sap.ui.define([],function(){"use strict";class t{static formatTime(t){if(!t){return""}try{const r=new Date(t);const n=r.getHours().toString().padStart(2,"0");const e=r.getMinutes().toString().padStart(2,"0");const s=r.getSeconds().toString().padStart(2,"+
+0");return`${n}:${e}:${s}`}catch{return t}}}return t});                                                                                                                                                                                                        
+//# sourceMappingURL=Formatter.js.map                                                                                                                                                                                                                          
