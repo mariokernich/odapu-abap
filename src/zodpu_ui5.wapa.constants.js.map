@@ -1,2 +1,0 @@
-{"version":3,"file":"Constants.js","names":["Constants","static"],"sources":["Constants.ts"],"sourcesContent":["export default class Constants {\n\tpublic static readonly SERVICE_QUERY_LIMIT = 2000;\n}\n"],"mappings":"yCAAe,MAAMA,EACpBC,2BAA6C,IAC7C,OAAA+
-D,CAAA","ignoreList":[]}                                                                                                                                                                                                                                       

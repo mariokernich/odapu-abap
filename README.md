@@ -2,20 +2,23 @@
 
 # OData & APC Test Tool
 
-This app gives you a powerful tool to test ODATA services – whether it’s modern ABAP RAP/CDS or classic SEGW projects – as well as APC (ABAP Push Channels).
+This app gives you a powerful tool to test ODATA services – whether it's modern ABAP RAP/CDS or classic SEGW projects – as well as APC (ABAP Push Channels).
 With its intuitive UI, you can easily build test cases, run them instantly, and save them for quick access later.
 No more manual hassle – just click, test, repeat. ⚡
 
 ## 🚀 Highlights
 
-- **One Tool for everything:** ODATA and ABAP Push channel in one place. Whether using old or newer, modern technolgoies. 
-- **Parallel Testing:** Run multiple requests or channels simultaneously – perfect for complex debugging and real-time monitoring. Each project will be placed in it's own tab, which can be switched anytime. 
-- **ODATA Request builder:** Easily switch between entity (and CRUD operation), function and action to pick the right ressource you want to test. Based on the selection, you will see the right inputs to fill. 
-- **Extended ODATA entity functions:** Detailed and user friendly options to define filter, sorter, header and general request options with no need of manual URL build. 
+- **One Tool for everything:** ODATA and ABAP Push channel in one place. Whether using old or newer, modern technolgoies.
+- **Parallel Testing:** Run multiple requests or channels simultaneously – perfect for complex debugging and real-time monitoring. Each project will be placed in it's own tab, which can be switched anytime.
+- **ODATA Request builder:** Easily switch between entity (and CRUD operation), function and action to pick the right ressource you want to test. Based on the selection, you will see the right inputs to fill.
+- **Extended ODATA entity functions:** Detailed and user friendly options to define filter, sorter, header, expand and general request options with no need of manual URL build.
+- **ODATA Metadata visualization:** View metadata.xml contents and full visualization of OData project including entities, functions, actions and complex types
+- **ODATA Requests history:** Recently used resources are saved for quick access to your latest requests
 - **Project Management:** Save, load, and organize your test cases.
 - **Service & Channel Search:** Quickly find OData services and Push Channels.
 - **Flexible Data View:** Switch between different views to display data.
-- **Multilanguage Support:** English, German, Turkish, and French translations included
+- **Success and Error sound feedback:** Audio notifications for successful operations and error states
+- **Multilanguage Support:** English (en), German (de) - Deutsch, French (fr) - Français, Turkish (tr) - Türkçe, Spanish (es) - Español, Italian (it) - Italiano, Russian (ru) - Русский
 - **Update notification:** Automatically notifies you when a new version is available
 
 ## 🔧 System Requirements
@@ -32,6 +35,9 @@ Find and pick your service in seconds to get started — just search the list.
 
 Create requests with just a few clicks — straight from the available resources of the current ODATA service.
 ![Service Builder](./images/crud-n-functions.gif)
+
+Display service metadata as XML source or with visualization of all entities, functions, actions and complex types. 
+![Metadata](./images/metadata.gif)
 
 Switch from JSON data preview to table view mode. 
 ![Table view](./images/table-switch.gif)
@@ -73,6 +79,8 @@ define service ZODPU_SRV {
   expose ZCE_ODPU_SERVICES as ODataService;
   expose ZCE_ODPU_APC as PushChannel;
   expose ZC_ODPU_OPROJ as ODataServiceProject;
+  expose ZCE_ODPU_TABLE as Dictionary;
+  expose ZCE_ODPU_TABLE_FIELDS as DictionaryField;
 }
 ```
 
